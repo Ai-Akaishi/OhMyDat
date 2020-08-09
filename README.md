@@ -1,4 +1,4 @@
-# OhMyDat
+# Oh! My Dat!
 Minecraft Private Storage Datapack  
 個別ストレージデータパック
 
@@ -29,8 +29,9 @@ function oh_its_dat:please
 
 ## 明示的にストレージを解放する / Explicitly free storage
 
+他のデータパックのデータが入っている可能性があるため、データパックから呼び出さないでください。  
+Do not call from a datapack because it may contain data of another datapack.  
 ```
-他のデータパックのデータが入っている可能性があるため、データパックから呼び出さないでください。 / Do not call from a datapack because it may contain data of another datapack.  
 ストレージを解放したいエンティティで次を実行 / Run the following command as the entity you want to free private storage for.  
 function oh_my_dat:release
 ```
