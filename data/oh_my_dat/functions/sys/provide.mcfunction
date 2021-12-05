@@ -6,6 +6,8 @@
 # シフト  (reset->1->     2->     3->     4->     5->     6->     7->     8)
 # チェック(           2->     3->     4->     5->     6->     7->     8->  )
 
+#define storage oh_my_dat:
+
 # reset
 data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][6]
 data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][5]
