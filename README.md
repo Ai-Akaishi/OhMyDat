@@ -4,12 +4,13 @@ Minecraft Private Storage Datapack
 
 # 動作確認済みバージョン / Verified minecraft versions
 
-- 1.17
+- 1.18
 
 以下のバージョンは右のReleasesからどうぞ。  
 For the following versions, please check Releases on the right.
 
 - 1.16.x
+- 1.17
 
 # 使い方/How To Use
 
@@ -17,7 +18,7 @@ For the following versions, please check Releases on the right.
 
 ```
 個別ストレージを使いたいエンティティで次を実行するだけ！ / Run the following command as the entity you want to use private storage for.  
-function oh_my_dat:please  
+function #oh_my_dat:please  
   
 アクセス / Access  
 data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DataName  
@@ -33,7 +34,7 @@ data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DataName
 
 ```
 scoreboard players set _ OhMyDatID <ID>  
-function oh_its_dat:please
+function #oh_its_dat:please
 ```
 
 ## 明示的にストレージを解放する / Explicitly free storage
@@ -42,7 +43,7 @@ function oh_its_dat:please
 Do not call from a datapack because it may contain data of another datapack.  
 ```
 ストレージを解放したいエンティティで次を実行 / Run the following command as the entity you want to free private storage for.  
-function oh_my_dat:release
+function #oh_my_dat:release
 ```
 
 # 連絡はこちら/Contact
