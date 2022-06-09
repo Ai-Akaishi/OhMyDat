@@ -4,13 +4,14 @@ Minecraft Private Storage Datapack
 
 # 動作確認済みバージョン / Verified minecraft versions
 
-- 1.18
+- 1.19
+- 1.18.x
 
 以下のバージョンは右のReleasesからどうぞ。  
 For the following versions, please check Releases on the right.
 
 - 1.16.x
-- 1.17
+- 1.17.x
 
 # 使い方/How To Use
 
