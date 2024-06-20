@@ -1,5 +1,4 @@
-### Copyright © 2020 赤石愛
-### This software is released under the MIT License, see LICENSE.
+#> oh_my_dat:sys/gc
 ### Copyright © 2020 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
