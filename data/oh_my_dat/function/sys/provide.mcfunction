@@ -36,8 +36,9 @@ data remove storage oh_my_dat: _[5]
 data remove storage oh_my_dat: _[4]
 
 # ストレージシフト１
-scoreboard players set _ OhMyDat 65536
-scoreboard players operation _ OhMyDatID *= _ OhMyDat
+scoreboard players set 65536 OhMyDat 65536
+scoreboard players operation _ OhMyDatID *= 65536 OhMyDat
+scoreboard players reset 65536 OhMyDat
 # 01....
 execute if score _ OhMyDatID matches 1073741824.. run data modify storage oh_my_dat: _ append value []
 # 10....
